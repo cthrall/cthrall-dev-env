@@ -1,14 +1,44 @@
 *Helpful Git Command Lines*
 
+Set config to not show untracked files for a git status by default
+* git config --global --add status.showUntrackedFiles 'no'
+
+Switch to master, get latest version of everything locally
 * git checkout master
-* git checkout -b <branch> - create new branch
-* ...do work...
+* git pull
+
+Create new branch and setup remote tracking
+* git checkout -b <branch>
+
+Do work, commit it locally
 * git commit
-* git push -u origin <branch> - pushes changes to remote server and adds remote tracking
+
+Push changes to remote server and add remote tracking
+* git push -u origin <branch>
+
+Do more work, commit it locally
 * git commit
-* git push - only need "-u" the first time
-* git rebase origin/master
-* git commit
+
+Push changes to remote server (you only need "-u" the first time)
 * git push
-* git merge origin/master - merge our changes back into main
-* git push origin :<branch> - delete feature branch
+
+Switch to master, get latest version of everything locally
+* git checkout master
+* git pull
+
+Switch back to feature branch, merge master into branch, and push changes to repo
+* git checkout <branch>
+* git push
+
+Switch back to master, merge feature branch back to main
+* git checkout master
+* git merge <branch>
+
+Archiving a branch
+* git checkout <branch>
+* git tag archive/<branch>
+
+Deleting a branch
+* git branch -d <branch> - deletes it locally
+* git push origin --delete <branch> - deletes the remote copy
+
