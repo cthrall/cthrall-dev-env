@@ -8,7 +8,7 @@ Switch to master, get latest version of everything locally
 * git pull
 
 Create new branch and setup remote tracking
-* git checkout -b <branch>
+* git checkout -b branch base_branch
 
 Do work, commit it locally
 * git commit
