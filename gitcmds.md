@@ -14,7 +14,7 @@ Do work, commit it locally
 * git commit
 
 Push changes to remote server and add remote tracking
-* git push -u origin <branch>
+* git push -u origin branch
 
 Do more work, commit it locally
 * git commit
@@ -27,18 +27,17 @@ Switch to master, get latest version of everything locally
 * git pull
 
 Switch back to feature branch, merge master into branch, and push changes to repo
-* git checkout <branch>
+* git checkout branch
 * git push
 
 Switch back to master, merge feature branch back to main
 * git checkout master
-* git merge <branch>
+* git merge branch
 
 Archiving a branch
-* git checkout <branch>
-* git tag archive/<branch>
+* git checkout branch
+* git tag archive/branch
 
 Deleting a branch
-* git branch -d <branch> - deletes it locally
-* git push origin --delete <branch> - deletes the remote copy
-
+* git branch -d branch - deletes it locally
+* git push origin --delete branch - deletes the remote copy
