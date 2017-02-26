@@ -40,3 +40,7 @@
   ;; custom-set-faces was added by Custom -- don't edit or cut/paste it!
   ;; Your init file should contain only one such instance.
  )
+
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
