@@ -34,6 +34,9 @@ Switch back to master, merge feature branch back to main
 * git checkout master
 * git merge branch
 
+Reverting a local change
+* git checkout <filename>
+
 Archiving a branch
 * git checkout branch
 * git tag archive/branch
