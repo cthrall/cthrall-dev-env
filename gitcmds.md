@@ -44,3 +44,10 @@ Archiving a branch
 Deleting a branch
 * git branch -d branch - deletes it locally
 * git push origin --delete branch - deletes the remote copy
+
+Renaming local and remote branch
+* git checkout old-name
+* git branch -m new-name
+* git branch -m old-name new-name
+* git push origin :old-name new-name
+* git push origin -u new-name
