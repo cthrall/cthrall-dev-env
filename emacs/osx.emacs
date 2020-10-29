@@ -1,3 +1,5 @@
+;; Remember to run package-refresh-contents after running Emacs on a new machine for the first time
+;; to load the list of packages from MELPA.
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
